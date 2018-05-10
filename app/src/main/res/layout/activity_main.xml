@@ -1,23 +1,124 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:cp="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center"
-    android:orientation="vertical">
+    android:layout_height="match_parent">
 
-    <me.my.widget.CircleProgressBar
-        android:id="@+id/progress"
-        android:layout_width="160dp"
-        android:layout_height="160dp"
-        android:layout_marginTop="20dp"
-        cp:radius="70dp"
-        cp:ringLineColor="#eeeeee"
-        cp:ringLineWidth="1dp"
-        cp:strokeWidth="10dp"
-        cp:textColor="#333333"
-        cp:textPercentColor="#333333"
-        cp:textPercentSize="26sp"
-        cp:textSize="45sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
 
-</LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <me.my.widget.CircleProgressBar
+                android:id="@+id/progress1"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_margin="10dp"
+                cp:radius="70dp"
+                cp:ringLineColor="#eeeeee"
+                cp:ringLineWidth="1dp"
+                cp:strokeWidth="10dp"
+                cp:textColor="#333333"
+                cp:textPercentColor="#333333"
+                cp:textPercentSize="26sp"
+                cp:textSize="45sp" />
+
+            <me.my.widget.CircleProgressBar
+                android:id="@+id/progress2"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_margin="10dp"
+                cp:radius="70dp"
+                cp:ringLineColor="#eeeeee"
+                cp:ringLineWidth="10dp"
+                cp:strokeWidth="10dp"
+                cp:textColor="#333333"
+                cp:textPercentColor="#333333"
+                cp:textPercentSize="26sp"
+                cp:textSize="45sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <me.my.widget.CircleProgressBar
+                android:id="@+id/progress3"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_margin="10dp"
+                cp:radius="70dp"
+                cp:ringLineColor="#eeeeee"
+                cp:ringLineWidth="1dp"
+                cp:strokeWidth="10dp"
+                cp:textColor="#333333"
+                cp:textPercentColor="#333333"
+                cp:textPercentSize="26sp"
+                cp:textSize="45sp" />
+
+            <me.my.widget.CircleProgressBar
+                android:id="@+id/progress4"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_margin="10dp"
+                cp:radius="70dp"
+                cp:ringLineColor="#eeeeee"
+                cp:ringLineWidth="1dp"
+                cp:strokeWidth="10dp"
+                cp:textColor="#333333"
+                cp:textPercentColor="#333333"
+                cp:textPercentSize="26sp"
+                cp:textSize="45sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <me.my.widget.CircleProgressBar
+                android:id="@+id/progress5"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_margin="10dp"
+                cp:radius="70dp"
+                cp:ringLineColor="#eeeeee"
+                cp:ringLineWidth="20dp"
+                cp:strokeWidth="10dp"
+                cp:textColor="#333333"
+                cp:textPercentColor="#333333"
+                cp:textPercentSize="26sp"
+                cp:textSize="45sp" />
+
+            <me.my.widget.CircleProgressBar
+                android:id="@+id/progress6"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_margin="10dp"
+                cp:radius="70dp"
+                cp:ringLineColor="#eeeeee"
+                cp:ringLineWidth="10dp"
+                cp:strokeWidth="10dp"
+                cp:textColor="#333333"
+                cp:textPercentColor="#333333"
+                cp:textPercentSize="26sp"
+                cp:textSize="45sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
