@@ -1,14 +1,4 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.novoda.bintray-release'
-
-publish {
-    userOrg = 'iflymoon1201'      //bintray注册的用户名
-    groupId = 'me.my.widget'         //compile引用时的第1部分groupId
-    artifactId = 'CircleProgressBar'     //compile引用时的第2部分项目名
-    publishVersion = '1.0.0'    //compile引用时的第3部分版本号
-    desc = 'A custom circular progress bar'
-    website = 'https://github.com/flymoon1201/CircleProgressBar'
-}
 
 android {
     compileSdkVersion 26
