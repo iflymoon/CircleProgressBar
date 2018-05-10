@@ -1,6 +1,4 @@
-# CircleProgressBar
-A custom circular progress bar
-###最新版本号：1.0.0
+##最新版本号：1.0.0
 
 # 介绍
 这是一个自定义的圆形进度条控件，可以高度定制进度条样式。
@@ -70,6 +68,6 @@ A custom circular progress bar
 - 当前进度 currentProgress
 - 百分号格式 percentStyle
 - 渐变类型 gradientType
- - 由上向下线性渐变LINEAR_FROM_TOP
- - 由左向右线性渐变LINEAR_FROM_LEFT
- - 环形渐变SWEEP
+  - 由上向下线性渐变LINEAR_FROM_TOP
+  - 由左向右线性渐变LINEAR_FROM_LEFT
+  - 环形渐变SWEEP
